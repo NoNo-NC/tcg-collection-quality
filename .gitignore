@@ -1,3 +1,21 @@
+@'
+
+# Local Python environment
+.venv/
+
+# Test and coverage outputs
+__pycache__/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+test-results.xml
+
+# Local secrets
+.env
+.env.*
+'@ | Add-Content -Encoding utf8 .gitignore
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
